@@ -1,4 +1,4 @@
-import scikit-learn
+import sklearn
 import pandas as pd
 import numpy as np
 import pickle
