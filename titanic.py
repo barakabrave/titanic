@@ -58,7 +58,7 @@ We use streamlit's cache notation.
 smt.write("This application will be used to predict the number of people succembed to Titanic accident")
 #@smt.cache(persist = True)
 
-data=pd.read_csv("virtual_env/titanic/train.csv")
+data=pd.read_csv("train.csv")
 smt.title('Welcome all')
 #smt.write("Let's view our dataset first")
 #smt.dataframe(data=data)
